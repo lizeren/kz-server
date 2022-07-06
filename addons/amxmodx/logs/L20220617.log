@@ -1,0 +1,81 @@
+L 06/17/2022 - 01:02:30: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 01:14:16: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 01:32:17: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/17/2022 - 01:32:32: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 06/17/2022 - 01:34:26: -------- Mapchange to de_airstrip --------
+L 06/17/2022 - 01:52:26: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/17/2022 - 01:52:41: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_havana
+L 06/17/2022 - 01:54:35: -------- Mapchange to cs_havana --------
+L 06/17/2022 - 02:12:35: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/17/2022 - 02:12:50: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_chateau
+L 06/17/2022 - 02:14:44: -------- Mapchange to de_chateau --------
+L 06/17/2022 - 02:32:44: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/17/2022 - 02:32:59: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_aztec
+L 06/17/2022 - 02:34:53: -------- Mapchange to de_aztec --------
+L 06/17/2022 - 02:52:52: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/17/2022 - 02:53:07: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be as_oilrig
+L 06/17/2022 - 02:55:01: -------- Mapchange to as_oilrig --------
+L 06/17/2022 - 03:13:01: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/17/2022 - 03:13:16: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_siege
+L 06/17/2022 - 03:15:10: -------- Mapchange to cs_siege --------
+L 06/17/2022 - 03:33:10: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/17/2022 - 03:33:25: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_cbble
+L 06/17/2022 - 03:35:19: -------- Mapchange to de_cbble --------
+L 06/17/2022 - 03:41:22: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 03:48:03: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 03:54:59: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 03:54:59: Error:
+L 06/17/2022 - 03:54:59: [AMXX] Module requested a not exisitng function (file "cstrike/addons/amxmodx/modules/cstrike_amxx_i386.so") (func "GetConfigManager")
+L 06/17/2022 - 03:54:59: [AMXX] Plugin "prokreedz.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 03:56:47: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 03:56:47: [AMXX] Plugin "prokreedz.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 03:57:22: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 03:57:23: [AMXX] Plugin "prokreedz.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:01:39: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:01:39: [AMXX] Plugin "prokreedz.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:03:34: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:03:34: Error:
+L 06/17/2022 - 04:03:34: [AMXX] Module requested a not exisitng function (file "cstrike/addons/amxmodx/modules/cstrike_amxx_i386.so") (func "GetConfigManager")
+L 06/17/2022 - 04:03:34: [AMXX] Plugin "prokreedz.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:07:50: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:07:50: [AMXX] Plugin "prokreedz.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:16:41: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:16:41: [AMXX] Plugin "prokreedz.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:16:41: [AMXX] Plugin "Hook.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:17:04: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:17:04: [AMXX] Plugin "Hook.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:17:27: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:17:28: [AMXX] Plugin "Hook.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:23:53: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:23:53: [AMXX] Plugin "Hook.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:32:04: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:32:04: Error:
+L 06/17/2022 - 04:32:04: [AMXX] Module requested a not exisitng function (file "cstrike/addons/amxmodx/modules/cstrike_amxx_i386.so") (func "GetConfigManager")
+L 06/17/2022 - 04:32:04: [AMXX] Plugin "Hook.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:40:48: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:40:48: Error:
+L 06/17/2022 - 04:40:48: [AMXX] Module requested a not exisitng function (file "cstrike/addons/amxmodx/modules/cstrike_amxx_i386.so") (func "GetConfigManager")
+L 06/17/2022 - 04:40:48: [AMXX] Plugin "Hook.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:41:52: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:41:52: Error:
+L 06/17/2022 - 04:41:52: [AMXX] Module requested a not exisitng function (file "cstrike/addons/amxmodx/modules/cstrike_amxx_i386.so") (func "GetConfigManager")
+L 06/17/2022 - 04:41:52: [AMXX] Plugin "Hook.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:43:39: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:43:39: [AMXX] Plugin "prokreedz.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:43:39: [AMXX] Plugin "Hook.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:54:02: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:54:02: [AMXX] Plugin "prokreedz.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:54:02: [AMXX] Plugin "Hook.amxx" failed to load: Module/Library "cstrike" required for plugin.  Check modules.ini.
+L 06/17/2022 - 04:58:32: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 04:58:32: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/17/2022 - 05:16:33: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/17/2022 - 05:16:48: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 06/17/2022 - 05:18:42: -------- Mapchange to de_airstrip --------
+L 06/17/2022 - 05:18:42: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/17/2022 - 05:22:17: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 05:22:17: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/17/2022 - 05:23:15: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 05:23:16: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/17/2022 - 05:30:20: -------- Mapchange to bkz_goldbhop --------
+L 06/17/2022 - 05:30:20: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/17/2022 - 05:30:26: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")

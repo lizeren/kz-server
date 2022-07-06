@@ -1,0 +1,3 @@
+L 06/17/2022 - 01:02:30: Start of error session.
+L 06/17/2022 - 01:02:30: Info (map "bkz_goldbhop") (file "addons/amxmodx/logs/error_20220617.log")
+L 06/17/2022 - 01:02:30: [AMXX] Load error 17 (invalid file format or version) (plugin "statsx.amxx")

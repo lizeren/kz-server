@@ -1,0 +1,397 @@
+L 06/19/2022 - 00:08:08: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 00:08:23: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_chateau
+L 06/19/2022 - 00:10:17: -------- Mapchange to de_chateau --------
+L 06/19/2022 - 00:10:17: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 00:28:16: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 00:28:32: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_aztec
+L 06/19/2022 - 00:30:25: -------- Mapchange to de_aztec --------
+L 06/19/2022 - 00:30:26: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 00:48:25: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 00:48:40: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be as_oilrig
+L 06/19/2022 - 00:50:34: -------- Mapchange to as_oilrig --------
+L 06/19/2022 - 00:50:34: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 01:08:34: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 01:08:49: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_siege
+L 06/19/2022 - 01:10:43: -------- Mapchange to cs_siege --------
+L 06/19/2022 - 01:10:43: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 01:28:42: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 01:28:57: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_cbble
+L 06/19/2022 - 01:30:51: -------- Mapchange to de_cbble --------
+L 06/19/2022 - 01:30:52: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 01:48:51: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 01:49:06: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_dust
+L 06/19/2022 - 01:51:00: -------- Mapchange to de_dust --------
+L 06/19/2022 - 01:51:00: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 02:08:59: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 02:09:15: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_747
+L 06/19/2022 - 02:11:09: -------- Mapchange to cs_747 --------
+L 06/19/2022 - 02:11:09: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 02:25:37: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 02:25:37: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 02:25:54: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 02:40:57: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 02:40:57: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 02:41:03: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 02:41:37: [plmenu.amxx] Ban: "ClearLoVe<1><STEAM_0:1:194230025><>" ban and kick "ClearLoVe<1><STEAM_0:1:194230025><>" (minutes "0")
+L 06/19/2022 - 02:41:40: [admin.amxx] Login: "ClearLoVe<2><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 02:42:30: [admin.amxx] Login: "ClearLoVe<3><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 02:42:40: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 02:42:40: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 02:42:44: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 02:48:38: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 02:48:38: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 02:48:45: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 03:06:38: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 03:06:53: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 06/19/2022 - 03:07:42: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 03:07:42: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 03:07:49: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 03:08:19: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 03:08:19: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 03:08:26: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 03:12:26: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 03:12:27: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 03:12:42: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 03:13:19: [mapsmenu.amxx] Cmd: "ClearLoVe<1><STEAM_0:1:194230025><>" changelevel "cs_estate"
+L 06/19/2022 - 03:13:21: -------- Mapchange to cs_estate --------
+L 06/19/2022 - 03:13:21: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 03:13:22: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 03:23:34: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 03:23:34: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 03:23:45: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 03:33:42: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 03:33:42: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 03:33:51: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 03:34:30: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 03:34:31: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 03:34:31: [glow.amxx] ERROR: Cannot find configuration file 'glow.ini'!
+L 06/19/2022 - 03:34:49: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 03:45:17: [admin.amxx] Login: "ClearLoVe<4><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 03:46:08: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 03:46:09: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 03:46:18: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 04:04:09: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 04:04:24: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 06/19/2022 - 04:06:18: -------- Mapchange to de_airstrip --------
+L 06/19/2022 - 04:06:18: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 04:12:17: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 04:12:17: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 04:12:33: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 04:14:20: [admin.amxx] Login: "ClearLoVe<2><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 04:14:52: [admin.amxx] Login: "ClearLoVe<3><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 04:16:45: [admin.amxx] Login: "ClearLoVe<4><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 04:30:17: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 04:30:32: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 06/19/2022 - 04:32:26: -------- Mapchange to de_airstrip --------
+L 06/19/2022 - 04:32:26: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 04:50:26: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 04:50:41: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_havana
+L 06/19/2022 - 04:52:35: -------- Mapchange to cs_havana --------
+L 06/19/2022 - 04:52:35: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 05:10:34: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 05:10:50: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_chateau
+L 06/19/2022 - 05:12:44: -------- Mapchange to de_chateau --------
+L 06/19/2022 - 05:12:44: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 05:30:43: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 05:30:58: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_aztec
+L 06/19/2022 - 05:32:52: -------- Mapchange to de_aztec --------
+L 06/19/2022 - 05:32:52: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 05:50:52: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 05:51:07: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be as_oilrig
+L 06/19/2022 - 05:53:01: -------- Mapchange to as_oilrig --------
+L 06/19/2022 - 05:53:01: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 05:53:06: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 05:53:06: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 05:53:10: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 05:58:35: [mapsmenu.amxx] Cmd: "ClearLoVe<1><STEAM_0:1:194230025><>" changelevel "de_inferno"
+L 06/19/2022 - 05:58:37: -------- Mapchange to de_inferno --------
+L 06/19/2022 - 05:58:38: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 05:58:38: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 06:03:12: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 06:03:12: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 06:03:19: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 06:07:07: [admin.amxx] Login: "ClearLoVe<2><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 06:07:54: -------- Mapchange to ffy_hb_Clearlove --------
+L 06/19/2022 - 06:08:03: -------- Mapchange to ffy_hb_Clearlove --------
+L 06/19/2022 - 06:08:44: -------- Mapchange to ffy_hb_Clearlove --------
+L 06/19/2022 - 06:09:18: -------- Mapchange to ffy_hb_Clearlove --------
+L 06/19/2022 - 06:09:27: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 06:09:27: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 06:14:48: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 06:14:48: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 06:14:51: -------- Mapchange to ffy_hb_Clearlove --------
+L 06/19/2022 - 06:14:51: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 06:15:01: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 06:32:52: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 06:33:07: [mapchooser.amxx] Vote: Voting for the nextmap finished. Map ffy_hb_Clearlove will be extended to next 14 minutes
+L 06/19/2022 - 06:43:53: [admin.amxx] Login: "ClearLoVe<5><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 06:44:50: [admin.amxx] Login: "ClearLoVe<6><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 06:47:52: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 06:48:07: [mapchooser.amxx] Vote: Voting for the nextmap finished. Map ffy_hb_Clearlove will be extended to next 14 minutes
+L 06/19/2022 - 07:02:52: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 07:03:07: [mapchooser.amxx] Vote: Voting for the nextmap finished. Map ffy_hb_Clearlove will be extended to next 14 minutes
+L 06/19/2022 - 07:08:55: -------- Mapchange to 8b1_hellinashop --------
+L 06/19/2022 - 07:08:56: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 07:09:02: [admin.amxx] Login: "ClearLoVe<2><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 07:24:50: [admin.amxx] Login: "ClearLoVe<6><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 07:26:57: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 07:27:12: [mapchooser.amxx] Vote: Voting for the nextmap finished. Map 8b1_hellinashop will be extended to next 14 minutes
+L 06/19/2022 - 07:39:26: [admin.amxx] Login: "ClearLoVe<8><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 07:41:57: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 07:42:12: [mapchooser.amxx] Vote: Voting for the nextmap finished. Map 8b1_hellinashop will be extended to next 14 minutes
+L 06/19/2022 - 07:44:03: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 07:44:03: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 07:44:08: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 07:44:31: [admin.amxx] Login: "ClearLoVe<2><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 07:48:34: [admin.amxx] Login: "ClearLoVe<4><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 07:49:51: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 07:49:52: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 07:50:01: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 07:52:23: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 07:52:23: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 07:52:28: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 08:05:00: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 08:05:00: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 08:05:22: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 20:14:34: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 20:14:34: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 20:21:41: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 20:21:42: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 20:22:05: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 20:31:21: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 20:31:21: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 20:39:29: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 20:39:29: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 20:39:41: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 20:49:49: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 20:49:49: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 20:50:00: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 20:51:22: [admin.amxx] Login: "ClearLoVe<2><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 21:00:34: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 21:00:34: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 21:00:41: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 21:03:13: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 21:03:13: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 21:03:19: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 21:08:02: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 21:08:02: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 21:08:22: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 21:26:03: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 21:26:18: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 06/19/2022 - 21:28:14: -------- Mapchange to de_airstrip --------
+L 06/19/2022 - 21:28:14: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 21:44:32: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 21:44:32: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 21:44:39: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 21:47:42: [mapsmenu.amxx] Cmd: "ClearLoVe<1><STEAM_0:1:194230025><>" changelevel "cs_italy"
+L 06/19/2022 - 21:47:44: -------- Mapchange to cs_italy --------
+L 06/19/2022 - 21:47:45: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 21:47:45: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 21:50:53: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 21:50:54: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 21:50:58: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 21:56:40: [admin.amxx] Login: "ClearLoVe<2><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 21:58:42: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 21:58:42: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 21:58:49: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 22:00:27: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 22:00:27: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 22:00:31: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 22:06:40: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 22:06:41: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 22:06:45: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 22:10:05: -------- Mapchange to bkz_goldbhop --------
+L 06/19/2022 - 22:10:06: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 22:10:11: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 22:13:38: -------- Mapchange to nz_leetbhop --------
+L 06/19/2022 - 22:13:38: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 22:13:45: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 22:14:26: [admin.amxx] Login: "ClearLoVe<2><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 22:21:21: -------- Mapchange to nz_leetbhop --------
+L 06/19/2022 - 22:21:22: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 22:21:32: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 22:29:27: [admin.amxx] Login: "ClearLoVe<2><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 22:39:22: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 22:39:37: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 06/19/2022 - 22:41:33: -------- Mapchange to de_airstrip --------
+L 06/19/2022 - 22:41:34: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 22:49:58: [admin.amxx] Login: "ClearLoVe<3><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 22:57:19: [admin.amxx] Login: "ClearLoVe<4><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 22:59:21: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slay "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:23: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:24: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:24: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:24: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:25: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:25: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:25: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:25: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:26: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:27: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:27: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:27: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:30: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:31: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:31: [plmenu.amxx] Cmd: "ClearLoVe<4><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<4><STEAM_0:1:194230025><>"
+L 06/19/2022 - 22:59:33: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/19/2022 - 22:59:48: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_dust
+L 06/19/2022 - 23:01:44: -------- Mapchange to de_dust --------
+L 06/19/2022 - 23:01:44: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 23:01:45: [admin.amxx] Login: "ClearLoVe<5><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 23:01:57: [mapsmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" changelevel "cs_assault"
+L 06/19/2022 - 23:01:59: -------- Mapchange to cs_assault --------
+L 06/19/2022 - 23:01:59: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 23:02:00: [admin.amxx] Login: "ClearLoVe<5><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/19/2022 - 23:04:34: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:35: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:35: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:35: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:35: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:35: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:36: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:36: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:36: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:36: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:36: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:37: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:37: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:37: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:37: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:37: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:37: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:38: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:38: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:38: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:38: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:38: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:38: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:39: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:39: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:39: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:39: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:40: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:40: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:40: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:40: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:40: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:41: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:41: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:41: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:41: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:41: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:42: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:42: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:42: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:42: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:42: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:43: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:44: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:44: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:44: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:45: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:45: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:45: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:45: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:46: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:46: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:46: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:47: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:47: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:47: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:47: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:47: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:47: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:48: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:48: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:48: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:48: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:48: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:48: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:49: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:49: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:49: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:49: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:49: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:49: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:50: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:50: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:50: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:50: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:50: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:51: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:51: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:51: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:51: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:51: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:51: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:52: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:52: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:52: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:52: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:52: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:52: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:53: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:53: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:53: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:53: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:04:54: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:00: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:00: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:01: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:01: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:01: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:01: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:01: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:01: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:02: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:02: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:02: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:02: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:02: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:02: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:03: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:03: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:03: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:03: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:03: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:04: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:04: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:04: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:05: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:05: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:05: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:05: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:05: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:05: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:06: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:07: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:07: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:07: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:07: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:07: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:08: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:08: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:08: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:08: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:08: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:08: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:08: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:09: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:09: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:09: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:09: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:09: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:09: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:10: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:10: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:10: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:10: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:10: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:11: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:11: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:11: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:11: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:05:12: [plmenu.amxx] Cmd: "ClearLoVe<5><STEAM_0:1:194230025><>" slap with 0 damage "ClearLoVe<5><STEAM_0:1:194230025><>"
+L 06/19/2022 - 23:08:27: -------- Mapchange to nz_leetbhop --------
+L 06/19/2022 - 23:08:27: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/19/2022 - 23:08:32: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")

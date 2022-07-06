@@ -1,0 +1,208 @@
+2.01
+*Added Top 15 Pro/Noob (With and without Checkpoints* -> Later added   GoChecks count)
+*Added milliseconds function (end message and top15 in format:   mm:ss.msms - 01:23.45)
+*Fixed bug in top15 that saves you every time you finish a map (and is   top15 entry). You can now go only if you beat your old time
+*Changed the semi-clip and fixed the   teleport-stuck-into-other-player-bug :D
+
+2.02
+*Added GoChecks count
+*Added HUD/Chat messages (for CP/TP/start etc.) kz_chatorhud 0/1/2 (No   messages/Chat messages/HUD messages)
+
+2.03
+*Added ColorChat functions (Green and Team Color for most of messages) -   If kz_chatorhud is 1
+*Added HUD color CVar for HUD Messages (Structure kz_hud_color "green   red blue" values 1-255 ) - If kz_chatorhud is 2
+
+2.04
+*Added Spec/CT function and respawn if you die
+*Added Kz Menu (wth CP/TP/Top15/Invis/Spec-CT and Reset timer functions)   CVar: kz_spawn_mainmenu 0/1, Command: /men
+
+2.05
+*Added /start command and auto-start creator when pressing start button   (if the start location doesn't exist)
+*Fixed the start bug (doesn't start unless you aim the timer before   pressing it)
+
+2.06
+*Added /weapons (and fixed possible bugs for climbing time)
+*Added CVar kz_show_timer 0/1 - to show kz timer in HUD message (format   mm:ss)
+
+2.07
+*Removed some not necessarily codes
+2.08
+*Added hook as prize and CVar kz_hook_prize 0/1
+*Added possibility to drop weapons. CVar kz_drop_weapons 0/1
+
+2.09
+*Included hook into the plugin (no longer needed prokreedz_hook)
+*Fixed kz_hook_prize
+*Fixed reset time if you use hook
+*Changed hook colors
+*Fixed finish messages (sometimes it didn't show new place)
+*Trying /setstart and /delstart
+*Deleted NightVision to avoid "You already have one message"
+*Added /start function and Checkpoints+GoChecks count on Kz-Menu
+
+2.10 - 14.04.2010 (N/A) 
+*Fixed /setstart and /delstart
+
+2.11 - 16.04.2010 (37) 
+*Fixed some codes
+*Added CVar kz_use_radio
+*Added CVar kz_hud_coords <x y> to change the coordinates of the   HUD Messages
+*You cannot spam anymore "Spec/CT" function in KZ-Menu to avoid a bug
+*Removed kz_hud_coords because of breaking all HUD Messages. For a   foreign reason i cannot have both integral and float variables in same   function in AMXX :o
+
+2.12 - 24.04.2010 (35) 
+*Added /scout command
+*Added NightVision + CVars kz_nvg <0/1> and
+ kz_nvg_colors <r g   b>
+*Fixed some codes - Thanks to SchlumPF
+2.13 - 01.05.2010 (85) 
+*Changed delay_duck function
+*Removed admin_gravty and admin_teleport
+
+*Added Pause function. Cvars: kz_pause <0/1>. Command: /pause.
+2.14 - 23.05.2010 (68)
+*Added /showkeys command. CVar: kz_showkeys <0/1>
+*Added VIP in scoreboard for admins (ADMIN_KICK, like for hook). CVar:   kz_vip <0/1>
+*Removed admin_laser
+*Added Water Invis 
+*Added Invis Menu (/invis) and /pinvis (for manually player invis) /   /winvis (for manually water invis)
+*Fixed the spam bug with hook while being dead
+
+2.15 - 05.06.2010 (30)
+*Changed the block commands function
+*Players (not admins) can now use noclip. If kz_cheatdetect is 1 the   timer resets. It disappears automatically if you start a new run.
+*Players don't lose hook anymore when they start a new run (if they   already got one by finishing the map), but the timer resets if   kz_cheatdetect is set to 1
+*Added /usp command which gives you usp/knife, but you will still be   added in Noob top for using scout
+*Removed /help command (going to add a menu for newbies with MOTDs)
+2.16 - 11.06.2010 (34)
+
+*Added auto remove weapon if it's dropped (to avoid cheats or abuses).   CVar: kz_remove_drops <0/1>
+*Fixed top15 (codes from kz-arg)
+*Added /knife (same as /usp)
+*Added CVar kz_semiclip, to enable or not the semiclip
+*Note: Please move your start folder into /kz/start
+2.17 - 19.06.2010 (21)
+
+*Added player command "/timer" for kz_show_timer "1", to see or not the   HUD timer
+*Added commands /demo or /legal, for plugin to be safe for recording and   /public or /reload for executing kreedz.cfg
+*Added auto-heal if the map has healer
+*Auto creates folders for addons/kz, addons/kz/start and addons/kz/top15   for the plugin to work corectly
+*Changed start and finish detection (used xj_timer code)
+*Changed Checkpoints system
+2.18 - 22.06.2010 (106)
+
+*Changed HUD timer and added CPs / GCs near timer for kz_show_timer "1" 
+*Added Show Timer (/timer command) and Pause into Main Menu
+*Changed pyramidal codes :D
+*Changed the Night-Vision
+*Fixed block buys
+*Added stats of the player you are spectating(Name,Time, CPs, GCs), you   can turn it off by command /timer
+*Fixed Noob 15 update and Top15 design (lifted up as default becuase it doesn't support so many values)
+
+2.19 - 16.07.2010 (246)
+*Removed some unnecesarly codes (AdminGlow and some other stuff)
+*Fixed showkeys
+*Fixed semiclip
+*Added CVar kz_respawn_ct, to either respawn or not CTs
+*Changed switch to spec function: Saves the spot you go to spec and moves you there when you go back to CT. Saves your Time if it's started and you go spec. CVar: kz_spec_saves 0/1
+2.20 - 03.08.2010 (305)
+
+*Fixed Top15 for a better work because it couldn't handle all #15 places sometimes
+*Fixed a Spec-Pause bug
+*Fixed a bug with Timer show on Spectator
+*Fixed a bug that you couldn't spectate players while having invis turned on
+*Deleted HP show when targeting a player to fix a HP Bug show for 50,000 HP
+*Removed ShowKeys, SpecInfo plugin can handle it
+
+2.21 - 19.08.2010 (330)
+*You cannot pick up weapons when the timer is started
+*Fixed a bug with spectating
+*Changed the detection of starting weapons. Added CVar: kz_strip_other_weapons to strip or not other weapons (Top 15 is updated only for usp/knife and scout)
+*Added Custom start points and fix bug with duck stuck. CVar: kz_save_autostart
+*Removed Cstrike and Fun modules
+*Fixed/Improved a couple of codes
+
+2.22 - 09.09.2010 (199)
+*Added command /respawn that works like start and changed a little the start function (if there is not start position it respawns you)
+*Added a message when you target a player like VIP if the targeted player is admin or Player if it's not
+*Fixed a bug with pause
+*Fixed a bug with godmode
+*Fixed a Spec bug (Re-added Cstrike moule)
+*Fixed a bug with Hook
+
+2.23 - 24.09.2010 (390)
+*Changed setstart function to save all positions into only one file
+*Fixed the bug that didn't show the ljstats on spectator mode
+*Fixed hook and start exploit. Added CVar: kz_hook_speed (300 default)
+*Removed Amxmisc, Engine
+
+2.24 - 13.10.2010 (808)
+*Added Timer Show into Round Time (see /timer)
+*Added kz_reload_weapons 0/1 , to reload the weapons when starting timer (like Kz-Arg)
+*Changed /timer command, created a menu for Show Timer methods
+*Added CVar kz_showtime_start - to set the normal showtime method ( 0 - Disabled , 1- HUD, 2-RoundTime). You can change it ingame by command /timer.
+*Deleted /demo and /pub commands (created a new plugin for it - prokreedz_demo)
+
+2.25 - 01.12.2010 (536)
+*No steam users won't get to top anymore
+*Changed top15 for top10 (to fix MOTD bugs... use SQL version for working top15)
+*Optimized the plugin
+*prokreedz_name is no longer needed, Steam ID is better. You can use the steam id version for non-steam clients, you will just not get into top
+
+2.26c - 15.01.2011 (1048)
+*Added Cvar kz_pick_weapons 0 - default for public servers; 1 - default for recording demos
+*Added command /god for godmode (resets your time if you use it)
+*Readded failed/improved times messages for non SQL version
+*Deleted cvar kz_showtimer_start, use kz_show_timer instead. 0 - for disabling , 1 - for HUd , 2 - for roduntimer. This is only for default, players can modify it by /timer command.
+*Optimized the plugin a little
+*Added CVar kz_top15_authid 0/1 - 0 for Top sort by names (used mostly for non-steam servers), 1 for sorting by authid (aka steam id)
+
+2.27 - 18.07.2011 (3411)
+*Changed a little the finish message
+*Fixed little CP/TP bug
+
+2.28 - 16.04.2012 (149)
+*Fixed Connor's requests. Plugin should be more optimal now.
+*Fixed other little tweaks and did minor changes.
+*Added /savepos command (check above at players commands)
+
+2.29 - 22.04.2012 (74)
+*CPs can be done on ladders
+*Added CVar kz_semiclip_transparency <0-255> - The amount of transparency between players when kz_semiclip is 1
+*Added CVar kz_chat_prefix <message> - Default it's [KZ]
+*Changed the way I register commands. All commands now work with say(_team) /command, say(_team) .command
+*Fixed a top15 bug (used to show wrong values at 'improved your time by:' and 'slower than your time by:' messages). Added scout check in Noob 15.
+*Fixed pause & savepos bugs as well as other combinations between functions
+*Scout is not longer removed if you hold it when you start the timer also fixed some scout bugs
+*Added Multi Language. All translations are welcome!
+**SQL version is now in the same plugin with the motd version. To use SQL remove the "//" from "//#define USE_SQL" (in the source of the plugin)
+
+2.30 - 27.04.2012 (164)
+*Added /guns (same as /weapons) due to request
+*Fixed some ML stuff ( I couldn't do it the usual way because I had to overcomplicate it, so I tried an easier approach)
+*Fixed a Save Pos bug
+*Fixed a message bug
+*Fixed some weapons bugs
+*Pause now work while in air, as well
+*/scout command now works even if timer is not started
+
+2.31 - 12.05.2012 (??)
+*Added command /chatorhud. Players will now be able to switch between showing messages on chat, on hud, or not show them at all. At spawn, they will be decided by CVar.
+*Fixed problems with pause and godmode/noclip
+*Fixed a problem with not going to pro15 even if you use usp/knife
+*Changed noclip function when paused: Your timer will not reset if you are paused, so you can fly around, but when you type again /noclip you will be teleported to where you paused. (Useful if you don't know the map and you want to look around for next jump, but you don't want to lose your current timer). CVar kz_noclip_paused 0/1
+*Added CVar kz_save_pos_gochecks <0/1> - Whether or not to add +1 Gochecks after reloading old run. Default 1 (no Pro 15 even if you had 0 GCs when you saved)
+*Now you get scout back if you used it in the previous run (so there are no bugs with pro15 and scout if kz_save_pos_gochecks is 0)
+
+
+[SQL]
+*Fixed the PHP files a little
+*Fixed bugs with server crash, bad saving the time or not saving at all
+*Fixed some messages and fixed the PHP files completly
+*Readded flags for countries and fixed a bug with them
+*Changed the Top saving to be saved with just 2 decimals
+*Redesigned the PHP files
+*Fixed the bug that was saving CPs as GCs and GCs as CPs (in DB). Command for SQL vesrion is /prorecords (in chat)
+*Added Pro Records reading into PHP files.
+*Added in /top15 menu for SQL vesrion Players Rankings and Maps statistic option
+*Added a function that updates your name in all the records you have with the one you join at the moment.

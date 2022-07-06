@@ -1,0 +1,19 @@
+L 06/20/2022 - 22:49:57: -------- Mapchange to nz_leetbhop --------
+L 06/20/2022 - 22:49:57: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/20/2022 - 22:50:04: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/20/2022 - 22:51:56: [admin.amxx] Login: "ClearLoVe<2><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")
+L 06/20/2022 - 23:07:57: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/20/2022 - 23:08:12: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_airstrip
+L 06/20/2022 - 23:10:08: -------- Mapchange to de_airstrip --------
+L 06/20/2022 - 23:10:08: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/20/2022 - 23:28:08: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/20/2022 - 23:28:23: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_havana
+L 06/20/2022 - 23:30:19: -------- Mapchange to cs_havana --------
+L 06/20/2022 - 23:30:19: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/20/2022 - 23:48:18: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 06/20/2022 - 23:48:34: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_chateau
+L 06/20/2022 - 23:50:30: -------- Mapchange to de_chateau --------
+L 06/20/2022 - 23:50:30: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/20/2022 - 23:52:43: -------- Mapchange to nz_leetbhop --------
+L 06/20/2022 - 23:52:43: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/prokreedz.txt
+L 06/20/2022 - 23:52:53: [admin.amxx] Login: "ClearLoVe<1><STEAM_0:1:194230025><>" became an admin (account "STEAM_0:1:194230025") (access "abcdefghijklmnopqrstu") (address "69.174.157.159")

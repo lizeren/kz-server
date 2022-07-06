@@ -1,0 +1,241 @@
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:           1472 bytes
+Code size:            18648 bytes
+Data size:             7016 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:   43520 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:           1032 bytes
+Code size:            15276 bytes
+Data size:             6600 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:   39292 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:           1772 bytes
+Code size:            39948 bytes
+Data size:            25332 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:   83436 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            544 bytes
+Code size:             2560 bytes
+Data size:             1296 bytes
+Stack/heap size:      16384 bytes; estimated max. usage=190 cells (760 bytes)
+Total requirements:   20784 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            444 bytes
+Code size:             2104 bytes
+Data size:              648 bytes
+Stack/heap size:      16384 bytes; estimated max. usage=779 cells (3116 bytes)
+Total requirements:   19580 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:           1400 bytes
+Code size:            23504 bytes
+Data size:            15108 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:   56396 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            308 bytes
+Code size:             1200 bytes
+Data size:              736 bytes
+Stack/heap size:      16384 bytes; estimated max. usage=40 cells (160 bytes)
+Total requirements:   18628 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            908 bytes
+Code size:            17372 bytes
+Data size:           128392 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:  163056 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+csstats.sma(36) : error 017: undefined symbol "MAX_BODYHITS"
+csstats.sma(37) : error 017: undefined symbol "STATSX_KILLS"
+
+2 Errors.
+Could not locate output file compiled/csstats.amx (compile failed).
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            648 bytes
+Code size:             2596 bytes
+Data size:              816 bytes
+Stack/heap size:      16384 bytes; estimated max. usage=778 cells (3112 bytes)
+Total requirements:   20444 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:           1004 bytes
+Code size:             8252 bytes
+Data size:             3432 bytes
+Stack/heap size:      16384 bytes; estimated max. usage=780 cells (3120 bytes)
+Total requirements:   29072 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:           1384 bytes
+Code size:            21396 bytes
+Data size:             8060 bytes
+Stack/heap size:      16384 bytes; estimated max. usage=1635 cells (6540 bytes)
+Total requirements:   47224 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            860 bytes
+Code size:            13820 bytes
+Data size:           113116 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:  144180 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+miscstats.sma(61) : error 017: undefined symbol "MAX_PLAYERS"
+miscstats.sma(62) : error 017: undefined symbol "MAX_PLAYERS"
+miscstats.sma(71) : error 017: undefined symbol "MAX_PLAYERS"
+miscstats.sma(72) : error 009: invalid array size (negative or zero)
+miscstats.sma(85) : error 017: undefined symbol "MAX_PLAYERS"
+miscstats.sma(86) : error 009: invalid array size (negative or zero)
+miscstats.sma(87) : error 009: invalid array size (negative or zero)
+miscstats.sma(196) : error 017: undefined symbol "get_map_objectives"
+miscstats.sma(501) : error 017: undefined symbol "MAX_NAME_LENGTH"
+miscstats.sma(502) : error 017: undefined symbol "name"
+miscstats.sma(502) : error 072: "sizeof" operator is invalid on "function" symbols
+miscstats.sma(502) : error 029: invalid expression, assumed zero
+miscstats.sma(502) : fatal error 107: too many error messages on one line
+
+Compilation aborted.
+13 Errors.
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            904 bytes
+Code size:             7396 bytes
+Data size:             3744 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:   28428 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            780 bytes
+Code size:             3596 bytes
+Data size:             2356 bytes
+Stack/heap size:      16384 bytes; estimated max. usage=164 cells (656 bytes)
+Total requirements:   23116 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            808 bytes
+Code size:            16780 bytes
+Data size:             7948 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:   41920 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:           1860 bytes
+Code size:            35376 bytes
+Data size:            35900 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:   89520 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:           1764 bytes
+Code size:            20752 bytes
+Data size:            19784 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:   58684 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:           4400 bytes
+Code size:            80156 bytes
+Data size:            69436 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:  170376 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            540 bytes
+Code size:             2340 bytes
+Data size:             4824 bytes
+Stack/heap size:      16384 bytes; estimated max. usage=778 cells (3112 bytes)
+Total requirements:   24088 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+stats_logging.sma(17) : error 017: undefined symbol "MAX_PLAYERS"
+stats_logging.sma(18) : error 009: invalid array size (negative or zero)
+stats_logging.sma(19) : error 009: invalid array size (negative or zero)
+stats_logging.sma(21) : error 009: invalid array size (negative or zero)
+stats_logging.sma(40) : error 017: undefined symbol "MAX_NAME_LENGTH"
+stats_logging.sma(40) : error 029: invalid expression, assumed zero
+stats_logging.sma(40) : error 017: undefined symbol "szAuthid"
+stats_logging.sma(40) : fatal error 107: too many error messages on one line
+
+Compilation aborted.
+8 Errors.
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            764 bytes
+Code size:            11044 bytes
+Data size:            24736 bytes
+Stack/heap size:      16384 bytes; estimated max. usage=781 cells (3124 bytes)
+Total requirements:   52928 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            820 bytes
+Code size:             9412 bytes
+Data size:             7624 bytes
+Stack/heap size:      16384 bytes; max. usage is unknown, due to recursion
+Total requirements:   34240 bytes
+Done.
+Welcome to the AMX Mod X 1.8.1-300 Compiler.
+Copyright (c) 1997-2013 ITB CompuPhase, AMX Mod X Team
+
+Header size:            668 bytes
+Code size:             7004 bytes
+Data size:             2832 bytes
+Stack/heap size:      16384 bytes; estimated max. usage=439 cells (1756 bytes)
+Total requirements:   26888 bytes
+Done.

@@ -594,11 +594,9 @@ bool:loadSettings(const filename[])
 	arrayset(RestrictedBotEquipAmmos, '0', charsmax(RestrictedBotEquipAmmos));
 	arrayset(RestrictedBotWeapons, '0', charsmax(RestrictedBotWeapons));
 
-	while (fgets(fp, lineRead, charsmax(lineRead)))
+	while (!feof(fp))
 	{
-		trim(lineRead)
-
-		if (!lineRead[0])
+		if (fgets(fp, lineRead, charsmax(lineRead)) - trim(lineRead) <= 0)
 		{
 			continue;
 		}
