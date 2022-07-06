@@ -59,6 +59,13 @@ new Noob_Weapon[24][32]
 new Float:Player_view_angle[33][3]
 new Float:Player_off_angle[33][3]
 
+new Float:Pause_Player_view_angle[33][3]
+new Float:Pause_Player_off_angle[33][3]
+new Float: Pause_Checkpoints[33][5][3]
+new Pause_stuck_index[33] 
+
+
+
 new Float:Checkpoints[33][2][3]
 new Float:timer_time[33]
 new Float:g_pausetime[33]
@@ -541,7 +548,7 @@ public Pause(id)
 			kz_chat(id, "%L", id, "KZ_TIMER_NOT_STARTED")
 			return PLUGIN_HANDLED
 		}
-
+		Pause_stuck_index[id] = -1
 		g_pausetime[id] = get_gametime() - timer_time[id]
 		timer_time[id] = 0.0
 		IsPaused[id] = true
@@ -1054,13 +1061,16 @@ public hook_on(id)
 	if( !canusehook[id] && !(  get_user_flags( id ) & KZ_LEVEL ) || !is_user_alive(id) )
 		return PLUGIN_HANDLED
 
-	if (IsPaused[id])
-	{
-		kz_chat(id, "%L", id, "KZ_HOOK_PAUSE")
-		return PLUGIN_HANDLED
-	}
+	// if (IsPaused[id])
+	// {
+	// 	kz_chat(id, "%L", id, "KZ_HOOK_PAUSE")
+	// 	return PLUGIN_HANDLED
+	// }
 	
-	detect_cheat(id,"Hook")
+	//detect_cheat(id,"Hook")
+	if (!IsPaused[id]){
+		Pause(id)
+	}
 	get_user_origin(id,hookorigin[id],3)
 	ishooked[id] = true
 	antihookcheat[id] = get_gametime()
@@ -1208,9 +1218,27 @@ public CheckPoint(id)
 	// 	return PLUGIN_HANDLED
 	// }
 		
+	// if( IsPaused[id] )
+	// {
+	// 	kz_chat(id, "%L", id, "KZ_CHECKPOINT_PAUSE")
+	// 	return PLUGIN_HANDLED
+	// }
+
+
+	client_print( id, print_chat, "ur id: %d", id ) 
 	if( IsPaused[id] )
 	{
-		kz_chat(id, "%L", id, "KZ_CHECKPOINT_PAUSE")
+		Pause_stuck_index[id]++
+		if(Pause_stuck_index[id] == 5){
+			Pause_stuck_index[id] = 0;
+		}
+		client_print( id, print_chat, "num of saves: %d", Pause_stuck_index[id] )
+		 
+		pev(id, pev_origin,Pause_Checkpoints[id][Pause_stuck_index[id]]);
+		pev(id, pev_v_angle, Pause_Player_view_angle[id])
+		pev(id, pev_view_ofs, Pause_Player_off_angle[id]);
+
+		
 		return PLUGIN_HANDLED
 	}
 		
@@ -1234,7 +1262,7 @@ public GoCheck(id)
 		return PLUGIN_HANDLED
 	}
 
-	if( checknumbers[id] == 0  ) 
+	if( checknumbers[id] == 0 && !IsPaused[id] ) 
 	{
 		kz_chat(id, "%L", id, "KZ_NOT_ENOUGH_CHECKPOINTS")
 		return PLUGIN_HANDLED
@@ -1242,7 +1270,19 @@ public GoCheck(id)
 
 	if( IsPaused[id] )
 	{
-		kz_chat(id, "%L", id, "KZ_TELEPORT_PAUSE")	
+		// kz_chat(id, "%L", id, "KZ_TELEPORT_PAUSE")	
+		// return PLUGIN_HANDLED
+		// Retrive user's view angle
+		set_pev(id, pev_v_angle, Pause_Player_view_angle[id] );
+		set_pev(id, pev_angles, Pause_Player_view_angle[id]);
+		set_pev(id, pev_view_ofs, Pause_Player_off_angle[id]);
+		set_pev(id , pev_fixangle, 1 )
+		set_pev( id, pev_velocity, Float:{0.0, 0.0, 0.0} );
+		set_pev( id, pev_flags, pev(id, pev_flags) | FL_DUCKING );
+		set_pev( id, pev_fuser2, 0.0 );
+		engfunc( EngFunc_SetSize, id, {-16.0, -16.0, -18.0 }, { 16.0, 16.0, 32.0 } );
+		set_pev(id, pev_origin, Pause_Checkpoints[id][Pause_stuck_index[id]]);
+
 		return PLUGIN_HANDLED
 	}
 	
@@ -1273,10 +1313,24 @@ public Stuck(id)
 		return PLUGIN_HANDLED
 	}
 
-	if( checknumbers[id] < 2 ) 
+	if( checknumbers[id] < 2 && !IsPaused[id] ) 
 	{
 		kz_chat(id, "%L", id, "KZ_NOT_ENOUGH_CHECKPOINTS")
 		return PLUGIN_HANDLED
+	}
+
+	if(IsPaused[id]) {
+		Pause_stuck_index[id] -= 1
+		if (Pause_stuck_index[id] == -1){
+			Pause_stuck_index[id] = 4
+		}
+		set_pev( id, pev_velocity, Float:{0.0, 0.0, 0.0} )
+		set_pev( id, pev_view_ofs, Float:{  0.0,   0.0,  12.0 })
+		set_pev( id, pev_flags, pev(id, pev_flags) | FL_DUCKING )
+		set_pev( id, pev_fuser2, 0.0 )
+		engfunc( EngFunc_SetSize, id, {-16.0, -16.0, -18.0 }, { 16.0, 16.0, 32.0 } )
+		set_pev(id, pev_origin, Pause_Checkpoints[id][Pause_stuck_index[id]])
+		return PLUGIN_HANDLED;
 	}
 
 	set_pev( id, pev_velocity, Float:{0.0, 0.0, 0.0} )
