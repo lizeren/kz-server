@@ -1,0 +1,8 @@
+cd SteamCMD/cs1.6
+./hlds_run -console -game cstrike +port 27015 +map nz_leetbhop +maxplayers 12 -pingboots 3 -insecure -num_edicts 1000 -zone 2024
+
+
+
+
+how to set spray:
+	Go to : E:\Steam\SteamApps\common\Half-Life\cstrike and look for **custom.hpk**.Delete this file from your game or server and enjoy your custom spray,worked for me.
