@@ -4,7 +4,7 @@
 #include <fun>
 #include <fakemeta>
 #include <hamsandwich>
-#include <KZBot_beta_206b>
+
 //#define USE_SQL
 
 #if defined USE_SQL
@@ -67,13 +67,7 @@ new Float:Pause_Player_off_angle[33][3]
 new Float: Pause_Checkpoints[33][5][3]
 new Pause_stuck_index[33]
 
-// Rec Bot
-new sClimbTime[32]
-new Float:ftime[33]
-native reset_run(id);
-native pause_run(id);
-native unpause_run(id);
-native save_run(id, sz_time[32]);
+
 
 new Float:Checkpoints[33][2][3]
 new Float:timer_time[33]
@@ -1241,7 +1235,7 @@ public CheckPoint(id)
 		if(Pause_stuck_index[id] == 5){
 			Pause_stuck_index[id] = 0;
 		}
-		client_print( id, print_chat, "num of saves: %d", Pause_stuck_index[id])
+		client_print( id, print_chat, "num of saves: %d", Pause_stuck_index[id] )
 		 
 		pev(id, pev_origin,Pause_Checkpoints[id][Pause_stuck_index[id]]);
 		pev(id, pev_v_angle, Pause_Player_view_angle[id])
@@ -1258,11 +1252,10 @@ public CheckPoint(id)
 		New_stuck_index[id] = 0;
 	}
 	pev(id, pev_origin,New_Checkpoints[id][New_stuck_index[id]]);
-	checknumbers[id]++;
+	checknumbers[id]++
 	// user's view angle
-    
-	pev(id, pev_v_angle, Player_view_angle[id]);
-	pev(id, pev_view_ofs, Player_off_angle[id]);
+    pev(id, pev_v_angle, Player_view_angle[id])
+	pev(id, pev_view_ofs, Player_off_angle[id])
 
 	kz_chat(id, "%L", id, "KZ_CHECKPOINT", checknumbers[id])
 
@@ -2426,35 +2419,22 @@ public start_climb(id)
 	timer_time[id] = get_gametime()
 	
 	//Start Record Bot
-	unpause_run(id);
-	reset_run(id);
-	// new iForward = CreateMultiForward("unpause_run",ET_IGNORE,FP_CELL),iReturn
+	// new iForward = CreateMultiForward("fwPubStarted",ET_IGNORE,FP_CELL),iReturn
 	// if(iForward < 0){
 	// 	log_amx("Forward could not be created.")
 	// 	return 
 	// }
         
+    
     // if(!ExecuteForward(iForward,iReturn,id)){
 	// 	log_amx("Could not execute forward.")
 	// 	return 
 	// }
         
     // DestroyForward(iForward)
-    
-	// new iForward2 = CreateMultiForward("reset_run",ET_IGNORE,FP_CELL),iReturn2
-	// if(iForward2 < 0){
-	// 	log_amx("Forward could not be created.")
-	// 	return 
-	// }
-        
-    // if(!ExecuteForward(iForward2,iReturn2,id)){
-	// 	log_amx("Could not execute forward.")
-	// 	return 
-	// }
-        
-    // DestroyForward(iForward2)
+    // return 
 
-	return
+
 	
 }
 
@@ -2541,39 +2521,21 @@ public finish_climb(id)
 		NoobTop_update(id, time, checknumbers[id], gochecknumbers[id])
 	#endif
 	user_has_scout[id] = false
-
-
 	//End Record Bot
-	// ftime[id] = time;
-	// fnConvertTime(ftime[id], sClimbTime, 32)
-	
-	
-
-	// new iForward = CreateMultiForward("save_run",ET_IGNORE,FP_CELL,FP_ARRAY),iReturn
+	// new iForward = CreateMultiForward("save_run",ET_IGNORE,FP_CELL,FP_FLOAT),iReturn
 	// if(iForward < 0){
 	// 	log_amx("Forward could not be created.")
 	// 	return 
 	// }
-
-
-	// new iArrayPass = PrepareArray(sClimbTime,32,0)
-
-
-    // if(!ExecuteForward(iForward,iReturn,id,iArrayPass)){
+        
+    
+    // if(!ExecuteForward(iForward,iReturn,id,66.6)){
 	// 	log_amx("Could not execute forward.")
 	// 	return 
 	// }
         
     // DestroyForward(iForward)
-
-	//emit_sound(0, CHAN_BODY, "vox/woop.wav", VOL_NORM, ATTN_NORM, 0, PITCH_NORM)
-
-	ftime[id] = time;
-	fnConvertTime(ftime[id], sClimbTime, charsmax(sClimbTime))
-	save_run(id, sClimbTime);
-	
-
-    return 
+    // return 
 }
 
 public show_finish_message(id, Float:kreedztime)
@@ -3159,21 +3121,3 @@ public NoobTop_show(id)
 // The original plugin was made by p4ddY 
 // This plugin was edited by nucLeaR
 // Version 2.31
-stock fnConvertTime( Float:time, convert_time[], len )
-{
-	new sTemp[24];
-	new Float:fSeconds = time, iMinutes;
-
-	iMinutes		= floatround( fSeconds / 60.0, floatround_floor );
-	fSeconds		-= iMinutes * 60.0;
-	new intpart		= floatround( fSeconds, floatround_floor );
-	new Float:decpart	= (fSeconds - intpart) * 100.0;
-	intpart			= floatround( decpart );
-
-	formatex( sTemp, charsmax( sTemp ), "%02i%02.0f.%02d", iMinutes, fSeconds, intpart );
-
-
-	formatex( convert_time, len, sTemp );
-
-	return(PLUGIN_HANDLED);
-}
