@@ -56,16 +56,28 @@ new Noob_GoChecks[24]
 new Noob_Weapon[24][32]
 #endif
 
+
+//Check
 new Float:Player_view_angle[33][3]
 new Float:Player_off_angle[33][3]
 new Float: New_Checkpoints[33][5][3]
 new New_stuck_index[33] = {-1, ...}
 
-
+//Pause
 new Float:Pause_Player_view_angle[33][3]
 new Float:Pause_Player_off_angle[33][3]
 new Float: Pause_Checkpoints[33][5][3]
 new Pause_stuck_index[33]
+
+//Save Start-- Location where timer is pressed
+new Float:SavedAngle[33][3]
+new Float:SavedViewOfs[33][3]
+
+//Save Start-- User defined
+new Float:SavedAngle_user[33][3]
+new Float:SavedViewOfs_user[33][3]
+new Float:SavedStart_user[33][3]
+new bool: If_user_start[33] = {false,...}
 
 // Rec Bot
 new sClimbTime[32]
@@ -75,12 +87,12 @@ native pause_run(id);
 native unpause_run(id);
 native save_run(id, sz_time[32]);
 
-new Float:Checkpoints[33][2][3]
+//new Float:Checkpoints[33][2][3]
 new Float:timer_time[33]
 new Float:g_pausetime[33]
 new Float:antihookcheat[33]
 new Float:SpecLoc[33][3]
-new Float:NoclipPos[33][3]
+//new Float:NoclipPos[33][3]
 new Float:PauseOrigin[33][3]
 new PauseFlag
 new Float:SavedStart[33][3]
@@ -93,7 +105,7 @@ new SavedGoChecks[33]
 new SavedScout[33]
 new SavedOrigins[33][3]
 
-new bool:g_bCpAlternate[33]
+//new bool:g_bCpAlternate[33]
 new bool:timer_started[33]
 new bool:IsPaused[33]
 new bool:WasPaused[33]
@@ -134,6 +146,7 @@ new kz_chatorhud
 new kz_hud_color
 new kz_chat_prefix
 new hud_message
+new pause_message
 new kz_other_weapons
 new kz_maxspeedmsg
 new kz_drop_weapons
@@ -306,6 +319,7 @@ public plugin_init()
 	kz_register_saycmd("weapons", "weapons", 0)
 	kz_register_saycmd("guns", "weapons", 0)	
 	kz_register_saycmd("winvis", "cmdWaterInvisible", 0)
+	kz_register_saycmd("userstart","user_start",0)
 	
 	#if defined USE_SQL
 	kz_register_saycmd("prorecords", "ProRecs_show", 0)
@@ -431,6 +445,7 @@ public QueryHandle(iFailState, Handle:hQuery, szError[], iErrnum, cData[], iSize
 public plugin_precache()
 {
 	hud_message = CreateHudSyncObj()
+	pause_message = CreateHudSyncObj()
 	RegisterHam( Ham_Spawn, "func_door", "FwdHamDoorSpawn", 1 )
 	precache_sound("weapons/xbow_hit2.wav")
 	Sbeam = precache_model("sprites/laserbeam.spr")
@@ -557,6 +572,8 @@ public Pause(id)
 			kz_chat(id, "%L", id, "KZ_TIMER_NOT_STARTED")
 			return PLUGIN_HANDLED
 		}
+		//remove pause message at the middle of screen
+		set_task(0.1,"Pause_msg_display",id,"",0,"b")
 		Pause_stuck_index[id] = -1
 		g_pausetime[id] = get_gametime() - timer_time[id]
 		timer_time[id] = 0.0
@@ -575,7 +592,7 @@ public Pause(id)
 		write_byte(0); 		// b
 		write_byte(100); 	// a
 		message_end();
-	
+
 			
 	}
 	else
@@ -598,7 +615,7 @@ public Pause(id)
 		set_pev( id, pev_flags, pev(id, pev_flags) );
 		set_pev( id, pev_fuser2, 0.0 );
 		engfunc( EngFunc_SetSize, id, {-16.0, -16.0, -18.0 }, { 16.0, 16.0, 32.0 } );
-
+		//remove shade effect on the screen
 		message_begin(MSG_ONE, get_user_msgid( "ScreenFade" ), _, id);
 		write_short(1); 	// total duration
 		write_short(0); 	// time it stays one color
@@ -608,6 +625,7 @@ public Pause(id)
 		write_byte(0); 		// b
 		write_byte(0); 		// a
 		message_end();
+		remove_task(id)
 	}
 		
 	return PLUGIN_HANDLED
@@ -902,12 +920,29 @@ public goStart(id)
 		kz_chat(id, "%L", id, "KZ_TELEPORT_PAUSE")
 		return PLUGIN_HANDLED
 	}
+	reset_checkpoints(id)
+	if(If_user_start[id]){
+		
+		set_pev(id, pev_velocity, Float:{0.0, 0.0, 0.0})
+		set_pev( id, pev_flags, pev(id, pev_flags) | FL_DUCKING )
+		set_pev(id, pev_origin, SavedStart_user[id] )
+		set_pev(id,pev_v_angle,SavedAngle_user[id])
+		set_pev(id,pev_view_ofs,SavedViewOfs_user[id])
+		set_pev(id,pev_angles,SavedAngle_user[id])
+		set_pev(id , pev_fixangle, 1 )
+		return PLUGIN_HANDLED
+	}
 
 	if(get_pcvar_num(kz_save_autostart) == 1 && AutoStart [id] )
 	{
 		set_pev(id, pev_velocity, Float:{0.0, 0.0, 0.0})
 		set_pev( id, pev_flags, pev(id, pev_flags) | FL_DUCKING )
 		set_pev(id, pev_origin, SavedStart [id] )
+		set_pev(id,pev_v_angle,SavedAngle[id])
+		set_pev(id,pev_view_ofs,SavedViewOfs[id])
+		set_pev(id,pev_angles,SavedAngle[id])
+		set_pev(id , pev_fixangle, 1 )
+		
 
 		kz_chat(id, "%L", id, "KZ_START")		
 	}
@@ -943,6 +978,22 @@ public setStart(id)
 	ColorChat(id, GREEN, "%s^x01 %L.", prefix, id, "KZ_SET_START")
 	
 	return PLUGIN_HANDLED
+}
+
+public user_start(id)
+{
+	if (!If_user_start[id]){
+		If_user_start[id] = true
+	}
+	pev(id, pev_origin, SavedStart_user[id])
+	pev(id,pev_v_angle,SavedAngle_user[id])
+	pev(id,pev_view_ofs,SavedViewOfs_user[id])
+	client_print( id, print_chat, "your own start is set")
+	//Reset timer 
+	reset_checkpoints(id) 
+
+	return PLUGIN_HANDLED
+
 }
 
 // ========= Respawn CT if dies ========
@@ -1234,7 +1285,7 @@ public CheckPoint(id)
 	// }
 
 
-	client_print( id, print_chat, "ur id: %d", id ) 
+	//client_print( id, print_chat, "ur id: %d", id ) 
 	if( IsPaused[id] )
 	{
 		Pause_stuck_index[id]++
@@ -1385,6 +1436,16 @@ public reset_checkpoints(id)
 	if (get_pcvar_num(kz_show_timer) > 0 && ShowTime[id] == 2)
 		kz_showtime_roundtime(id, 0)
 
+	
+	message_begin(MSG_ONE, get_user_msgid( "ScreenFade" ), _, id);
+	write_short(1); 	// total duration
+	write_short(0); 	// time it stays one color
+	write_short(0); 	// fade type
+	write_byte(0); 		// r
+	write_byte(0); 		// g
+	write_byte(0); 		// b
+	write_byte(0); 		// a
+	message_end();
 	return PLUGIN_HANDLED
 }
 
@@ -1793,9 +1854,7 @@ public SavePos(id)
 	new authid[33];
 	get_user_authid(id, authid, 32)
 
-	//test
-
-	client_print( id, print_chat, "This is your ID: %s", authid ) 
+	//client_print( id, print_chat, "This is your ID: %s", authid ) 
 	
 	if(get_pcvar_num(kz_save_pos) == 0)
 	{
@@ -2028,7 +2087,8 @@ public kz_menu(id)
 	menu_additem( menu, "Start", "4")
 	menu_additem( menu, "Timer Menu", "5" )
 	menu_additem( menu, msgpause, "6" )
-	menu_additem( menu, "Invisible Menu", "7" )
+	//menu_additem( menu, "Invisible Menu", "7" )
+	menu_additem( menu, "Set custom start", "7" )
 	menu_additem( menu, "Spectator/CT", "8" )
 	menu_additem( menu, "Reset Time^n", "9")
 	menu_additem( menu, "Exit", "MENU_EXIT" )
@@ -2071,10 +2131,13 @@ public MenuHandler(id , menu, item)
 			kz_menu(id)
 		}
 		case 6:{
-			InvisMenu(id)
+			//InvisMenu(id)
+			user_start(id)
+			kz_menu(id)
 		}
 		case 7:{
 			ct(id)
+			kz_menu(id)
 		}
 		case 8:{
 			reset_checkpoints(id)
@@ -2368,6 +2431,8 @@ public fwdUse(ent, id)
 				set_user_health(id, 100)
 
 			pev(id, pev_origin, SavedStart[id])
+			pev(id,pev_v_angle,SavedAngle[id])
+			pev(id,pev_view_ofs,SavedViewOfs[id])
 			if(get_pcvar_num(kz_save_autostart) == 1)
 				AutoStart[id] = true;
 
@@ -2571,9 +2636,7 @@ public finish_climb(id)
 	ftime[id] = time;
 	fnConvertTime(ftime[id], sClimbTime, charsmax(sClimbTime))
 	save_run(id, sClimbTime);
-	
-
-    return 
+     
 }
 
 public show_finish_message(id, Float:kreedztime)
@@ -3176,4 +3239,9 @@ stock fnConvertTime( Float:time, convert_time[], len )
 	formatex( convert_time, len, sTemp );
 
 	return(PLUGIN_HANDLED);
+}
+public Pause_msg_display(id){
+	set_hudmessage(255, 255, 0, 0.5, 0.5, 0, 0.0, 0.5, 0.0, 0.0, -1);
+	new msg[] = "Timer Paused"
+	ShowSyncHudMsg(id, pause_message, msg);
 }

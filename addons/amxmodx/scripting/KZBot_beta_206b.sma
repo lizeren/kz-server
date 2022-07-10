@@ -2147,8 +2147,6 @@ public save_run(id, demo_time[32], bool:is_demofile)
 		if(file_exists(RecordFile))
 			delete_file(RecordFile);
 		
-		client_print( id, print_chat, "this is not a demo" );
-
 	}
 	else
 	{
@@ -2179,8 +2177,7 @@ public save_run(id, demo_time[32], bool:is_demofile)
 	}
 	
 	new arrsize = ArraySize(array);
-	client_print( id, print_chat, "Array size: %d",arrsize );
-	client_print( id, print_chat, "Array is: %d",array );
+	
 
 	new temp_frame[frame_data];	
 	for(new i = 0; i < arrsize; i++ )
@@ -2224,12 +2221,7 @@ public save_run(id, demo_time[32], bool:is_demofile)
 			id = replaceid;
 		bot_sources[id][source_id] = id;
 		bot_sources[id][source_name] = sz_name;
-		
-		for (new temp = 0; temp < 32;temp++){
-			client_print( id, print_chat, "demo_ time: %c",demo_time[temp] );
-		}
 		bot_sources[id][source_time] = demo_time;	
-		
 		bot_sources[id][source_path] = filename;
 		bot_sources[id][source_startframe] = 0;	
 		ArrayGetArray( array, id, temp_frame );	
