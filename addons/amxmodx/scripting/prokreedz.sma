@@ -5,6 +5,8 @@
 #include <fakemeta>
 #include <hamsandwich>
 #include <KZBot_beta_206b>
+#include <cromchat> 
+
 //#define USE_SQL
 
 #if defined USE_SQL
@@ -572,7 +574,7 @@ public Pause(id)
 			kz_chat(id, "%L", id, "KZ_TIMER_NOT_STARTED")
 			return PLUGIN_HANDLED
 		}
-		//remove pause message at the middle of screen
+		//show pause message at the middle of screen
 		set_task(0.1,"Pause_msg_display",id,"",0,"b")
 		Pause_stuck_index[id] = -1
 		g_pausetime[id] = get_gametime() - timer_time[id]
@@ -625,6 +627,7 @@ public Pause(id)
 		write_byte(0); 		// b
 		write_byte(0); 		// a
 		message_end();
+		//remove pause message at the middle of screen
 		remove_task(id)
 	}
 		
@@ -920,7 +923,7 @@ public goStart(id)
 		kz_chat(id, "%L", id, "KZ_TELEPORT_PAUSE")
 		return PLUGIN_HANDLED
 	}
-	reset_checkpoints(id)
+	
 	if(If_user_start[id]){
 		
 		set_pev(id, pev_velocity, Float:{0.0, 0.0, 0.0})
@@ -930,6 +933,8 @@ public goStart(id)
 		set_pev(id,pev_view_ofs,SavedViewOfs_user[id])
 		set_pev(id,pev_angles,SavedAngle_user[id])
 		set_pev(id , pev_fixangle, 1 )
+		//because it is a custom start, we need to prevent player from setting custom start in the destination and tp from the start button
+		reset_checkpoints(id)
 		return PLUGIN_HANDLED
 	}
 
@@ -989,6 +994,7 @@ public user_start(id)
 	pev(id,pev_v_angle,SavedAngle_user[id])
 	pev(id,pev_view_ofs,SavedViewOfs_user[id])
 	client_print( id, print_chat, "your own start is set")
+	CC_LogMessage(0, _, "&x07Using option 4(start) from the menu will clear your time");
 	//Reset timer 
 	reset_checkpoints(id) 
 
@@ -1147,7 +1153,6 @@ public hook_on(id)
 public hook_off(id)
 {
 	remove_hook(id)
-	
 	return PLUGIN_HANDLED
 }
 
@@ -1197,6 +1202,12 @@ public remove_hook(id)
 		remove_task(id)
 	remove_beam(id)
 	ishooked[id] = false
+	//becuase the remove_task above will also remove the task that display HUD
+	//HUD msg needs to be initialized again
+	if(IsPaused[id]){
+		//display pause msg
+		set_task(0.1,"Pause_msg_display",id,"",0,"b")
+	}
 }
 
 public remove_beam(id)
@@ -1577,7 +1588,8 @@ public noclip(id)
 		// }
 	}
 	else if(noclip)
-		detect_cheat(id,"Noclip")
+		//detect_cheat(id,"Noclip")
+		Pause(id)
 	kz_chat(id, "%L", id, "KZ_NOCLIP" , noclip ? "ON" : "OFF")
     
 	return PLUGIN_HANDLED
@@ -2384,7 +2396,9 @@ public fwdUse(ent, id)
 		return HAM_IGNORED;
 	}
 
-	
+	if (IsPaused[id]){
+		return HAM_IGNORED;
+	}
 	new name[32]
 	get_user_name(id, name, 31)
 	

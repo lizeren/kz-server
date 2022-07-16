@@ -10,4 +10,3 @@ how to set spray:
 Useful cvar:
 
 amx_map map name
-amx_cvar mp_timelimit 500
